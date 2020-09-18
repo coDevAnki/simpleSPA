@@ -4,13 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Single page app</title>
+    <link rel="stylesheet" href="/static/css/style.css" />
   </head>
   <body>
     <nav class="nav-links">
-      <a href="/" data-link="abc">home</a>
-      <a href="/description" data-link="efi">description</a>
-      <a href="/articles" data-link="jkl">articles</a>
+      <a href="/" data-spa>home</a>
+      <a href="/description" data-spa>description</a>
+      <a href="/articles" data-spa>articles</a>
     </nav>
-    <script src="/static/js/index.js"></script>
+    <script type="module" src="/static/js/index.js"></script>
   </body>
 </html>
